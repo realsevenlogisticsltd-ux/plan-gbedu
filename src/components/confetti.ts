@@ -9,7 +9,7 @@ export function fireCelebrationConfetti() {
     particleCount: 120,
     spread: 75,
     origin: { x: 0.5, y: 0.45 },
-    colors: ["#881337", "#9F1239", "#D4AF37", "#F59E0B", "#FDFBF7"],
+    colors: ["#800020", "#6D28D9", "#D4AF37", "#F59E0B", "#FDFBF7"],
   });
   confetti({
     ...defaults,
@@ -17,7 +17,7 @@ export function fireCelebrationConfetti() {
     angle: 60,
     spread: 60,
     origin: { x: 0, y: 0.7 },
-    colors: ["#D4AF37", "#9F1239"],
+    colors: ["#D4AF37", "#800020"],
   });
   confetti({
     ...defaults,
@@ -25,6 +25,6 @@ export function fireCelebrationConfetti() {
     angle: 120,
     spread: 60,
     origin: { x: 1, y: 0.7 },
-    colors: ["#D4AF37", "#9F1239"],
+    colors: ["#D4AF37", "#6D28D9"],
   });
 }

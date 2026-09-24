@@ -13,7 +13,7 @@
   --popover: #ffffff;
   --popover-foreground: #2d0f15;
 
-  --primary: #881337;
+  --primary: #800020;
   --primary-foreground: #fdfbf7;
 
   --secondary: #f6ecd9;
@@ -23,21 +23,23 @@
   --muted-foreground: #7a6a5e;
 
   --accent: #f9efd8;
-  --accent-foreground: #881337;
+  --accent-foreground: #800020;
 
   --destructive: #c2263e;
   --destructive-foreground: #fdfbf7;
 
   --border: #eadfcf;
   --input: #eadfcf;
-  --ring: #9f1239;
+  --ring: #800020;
 
   --radius: 0.75rem;
 
   --gold: #d4af37;
   --gold-soft: #f9efd8;
-  --ruby: #9f1239;
-  --ruby-deep: #881337;
+  --ruby: #800020;
+  --ruby-deep: #5c0e1f;
+  --purple: #6d28d9;
+  --purple-soft: #ede9fe;
   --emerald-deep: #064e3b;
   --emerald: #047857;
   --ivory: #fdfbf7;
@@ -99,6 +101,8 @@
   --color-gold-soft: var(--gold-soft);
   --color-ruby: var(--ruby);
   --color-ruby-deep: var(--ruby-deep);
+  --color-purple: var(--purple);
+  --color-purple-soft: var(--purple-soft);
   --color-emerald-deep: var(--emerald-deep);
   --color-emerald: var(--emerald);
   --color-ivory: var(--ivory);
@@ -175,6 +179,16 @@
     90deg,
     transparent,
     rgba(212, 175, 55, 0.55),
+    transparent
+  );
+}
+
+/* The signature line of purple */
+@utility hairline-purple {
+  background-image: linear-gradient(
+    90deg,
+    transparent,
+    rgba(109, 40, 217, 0.7),
     transparent
   );
 }

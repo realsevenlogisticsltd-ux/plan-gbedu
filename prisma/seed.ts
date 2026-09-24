@@ -9,7 +9,7 @@ async function main() {
       timeSlot: "5:00 PM",
       title: "Arrival & Ruby Welcome",
       description:
-        "Guests are welcomed into the hall with ruby-red décor, champagne greetings and soft Afrobeat soul.",
+        "Guests are welcomed into the hall with burgundy décor, champagne greetings and soft Afrobeat soul.",
       orderIndex: 1,
     },
     {
@@ -161,9 +161,9 @@ async function main() {
       authorName: "Tola & Emeka",
       relationship: "Friend",
       rawMessage:
-        "Twenty years of friendship, and Ada is still the first person we call with good news. Her laughter is medicine.",
+        "Twenty years of friendship, and Mena is still the first person we call with good news. Her laughter is medicine.",
       polishedMessage:
-        "Twenty years of friendship, and Ada remains the first person we call with good news. Her laughter is the sweetest medicine.",
+        "Twenty years of friendship, and Mena remains the first person we call with good news. Her laughter is the sweetest medicine.",
       poeticSummary: "First to hear our every cheer — her laughter steadies every year.",
       category: "The Friend",
       isApproved: true,
@@ -209,9 +209,9 @@ async function main() {
       authorName: "The Primary 5 Class",
       relationship: "Student",
       rawMessage:
-        "Happy 40th birthday, Mummy Okafor! Thank you for reading us stories and believing we can be anything.",
+        "Happy 40th birthday, Mummy Sani! Thank you for reading us stories and believing we can be anything.",
       polishedMessage:
-        "Happy 40th birthday, Mummy Okafor! Thank you for reading us stories and believing we can be anything at all.",
+        "Happy 40th birthday, Mummy Sani! Thank you for reading us stories and believing we can be anything at all.",
       poeticSummary: "Stories read and dreams unlocked — little voices, giant flocks.",
       category: "The Educator",
       isApproved: true,

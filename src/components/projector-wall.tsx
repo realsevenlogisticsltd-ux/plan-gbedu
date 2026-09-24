@@ -143,7 +143,7 @@ export function ProjectorWall({ program, qrBaseUrl }: { program: ProgramItem[]; 
         className="pointer-events-none absolute inset-0"
         style={{
           background:
-            "radial-gradient(70% 60% at 50% 0%, rgba(159,18,57,0.25) 0%, transparent 65%), radial-gradient(50% 40% at 100% 100%, rgba(212,175,55,0.12) 0%, transparent 70%)",
+            "radial-gradient(70% 60% at 50% 0%, rgba(128,0,32,0.28) 0%, transparent 65%), radial-gradient(50% 40% at 100% 100%, rgba(212,175,55,0.12) 0%, transparent 70%)",
         }}
       />
       <div
@@ -191,7 +191,7 @@ export function ProjectorWall({ program, qrBaseUrl }: { program: ProgramItem[]; 
             </div>
           </div>
           <div className="text-center">
-            <h2 className="font-display text-2xl">Adaeze Ngozi Okafor</h2>
+            <h2 className="font-display text-2xl">Mena Sekinatu Sani</h2>
             <p className="text-xs uppercase tracking-[0.3em] text-gold">
               {eventInfo.subtitle}
             </p>

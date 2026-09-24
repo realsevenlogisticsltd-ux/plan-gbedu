@@ -1,5 +1,5 @@
 import { Quote } from "lucide-react";
-import { celebrant, eventInfo, pillars } from "@/lib/content";
+import { celebrant, closing, eventInfo, pillars } from "@/lib/content";
 import { TributeCardData } from "@/components/tribute-card";
 
 function KeepsakeTribute({ tribute }: { tribute: TributeCardData }) {
@@ -46,7 +46,7 @@ export function KeepsakeBook({
         className="flex min-h-[260mm] flex-col items-center justify-center gap-6 px-12 py-16 text-center"
         style={{
           background:
-            "linear-gradient(160deg, #9F1239 0%, #881337 45%, #5C0E26 100%)",
+            "linear-gradient(160deg, #8A0F2E 0%, #800020 45%, #4A0E1A 100%)",
           color: "#FDFBF7",
         }}
       >
@@ -99,7 +99,7 @@ export function KeepsakeBook({
         <div className="mt-10 grid grid-cols-4 gap-4 text-center">
           {celebrant.milestones.map((m) => (
             <div key={m.label} className="keep-together rounded-xl border border-amber-200 bg-amber-50 p-4">
-              <p className="font-display text-3xl text-rose-800">{m.years}</p>
+              <p className="font-display text-3xl text-[#800020]">{m.years}</p>
               <p className="mt-1 text-[10px] uppercase tracking-wider text-stone-500">
                 {m.label}
               </p>
@@ -114,7 +114,7 @@ export function KeepsakeBook({
         return (
           <section key={pillar.name} className="break-before-page px-12 py-14">
             <div className="flex items-center gap-4">
-              <span className="flex size-12 items-center justify-center rounded-full bg-rose-800 text-amber-200">
+              <span className="flex size-12 items-center justify-center rounded-full bg-[#800020] text-amber-200">
                 <Icon className="size-6" />
               </span>
               <div>
@@ -149,18 +149,45 @@ export function KeepsakeBook({
           background: "#FDFBF7",
         }}
       >
-        <p className="font-display text-2xl italic text-rose-900">
-          “To whom much grace is given, much gratitude is owed.”
+        <p className="text-xs uppercase tracking-[0.4em] text-amber-700">
+          Dedication
         </p>
-        <p className="max-w-md text-sm leading-relaxed text-stone-600">
-          Thank you for being part of this golden evening. May every blessing
-          written here return to you, multiplied.
+        <h2 className="font-display text-3xl text-stone-900">
+          {closing.title}
+        </h2>
+        <p className="max-w-lg font-display text-xl italic leading-relaxed text-rose-900">
+          {closing.lead}
         </p>
+        <div
+          className="h-px w-40"
+          style={{
+            backgroundImage:
+              "linear-gradient(90deg, transparent, #D4AF37, transparent)",
+          }}
+        />
+        <div className="flex max-w-lg flex-col gap-3 text-sm leading-relaxed text-stone-600">
+          {closing.blessing.map((line) => (
+            <p key={line.slice(0, 24)}>{line}</p>
+          ))}
+        </div>
+        <p className="font-display text-2xl italic text-stone-900">
+          {closing.signoff}
+        </p>
+        <div
+          className="h-px w-40"
+          style={{
+            backgroundImage:
+              "linear-gradient(90deg, transparent, #D4AF37, transparent)",
+          }}
+        />
         <p className="text-xs uppercase tracking-[0.4em] text-amber-700">
           {eventInfo.venue}
         </p>
         <p className="font-display text-lg text-stone-800">
           {celebrant.name}
+        </p>
+        <p className="text-xs tracking-[0.3em] text-stone-500">
+          {eventInfo.dateLabel}
         </p>
       </section>
     </div>

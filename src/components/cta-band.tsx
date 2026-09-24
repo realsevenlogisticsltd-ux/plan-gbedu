@@ -12,6 +12,7 @@ export function CtaBand() {
             "radial-gradient(50% 70% at 50% 110%, rgba(212,175,55,0.5) 0%, transparent 70%)",
         }}
       />
+      <div className="hairline-purple h-px w-full" />
       <div className="relative mx-auto flex max-w-4xl flex-col items-center gap-6 px-6 text-center">
         <h2 className="font-display text-4xl sm:text-5xl">
           Your Words Will Glow Tonight

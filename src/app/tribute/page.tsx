@@ -7,7 +7,7 @@ import { eventInfo } from "@/lib/content";
 export const metadata: Metadata = {
   title: "Leave a Tribute",
   description:
-    "Write or speak a blessing for Adaeze on her 40th birthday — it will glow on the projector wall tonight.",
+    "Write or speak a blessing for Mena on her 40th birthday — it will glow on the projector wall tonight.",
 };
 
 export const dynamic = "force-dynamic";
@@ -21,7 +21,7 @@ export default function TributePage() {
         className="absolute inset-0 opacity-40"
         style={{
           background:
-            "radial-gradient(60% 50% at 50% -10%, rgba(159,18,57,0.9) 0%, transparent 70%), radial-gradient(40% 40% at 90% 100%, rgba(212,175,55,0.25) 0%, transparent 70%)",
+            "radial-gradient(60% 50% at 50% -10%, rgba(128,0,32,0.9) 0%, transparent 70%), radial-gradient(40% 40% at 90% 100%, rgba(212,175,55,0.25) 0%, transparent 70%)",
         }}
       />
       <div className="relative mx-auto flex min-h-screen w-full max-w-2xl flex-col items-center px-5 py-12">

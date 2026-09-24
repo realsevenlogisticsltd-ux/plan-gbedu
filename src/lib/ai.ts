@@ -36,7 +36,7 @@ const MOTHER_RE =
 const EDUCATOR_RE =
   /\b(school|teacher|teach|class|classroom|pupil|student|lesson|education|academy|learn|chalk|principal|headmistress|proprietress)\b/i;
 const VISIONARY_STRONG_RE =
-  /\b(founder|founded|from nothing|vision|gracefield)\b/i;
+  /\b(founder|founded|from nothing|vision|smity hills|gracefield)\b/i;
 const VISIONARY_RE =
   /\b(dream|legacy|miracle|built|building|build)\b/i;
 const FRIEND_RE =

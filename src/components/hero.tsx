@@ -14,7 +14,7 @@ export function Hero() {
         className="absolute inset-0 opacity-[0.35]"
         style={{
           background:
-            "radial-gradient(60% 50% at 70% 20%, rgba(159,18,57,0.85) 0%, transparent 70%), radial-gradient(45% 40% at 15% 85%, rgba(212,175,55,0.25) 0%, transparent 70%)",
+            "radial-gradient(60% 50% at 70% 20%, rgba(128,0,32,0.9) 0%, transparent 70%), radial-gradient(45% 40% at 15% 85%, rgba(212,175,55,0.25) 0%, transparent 70%)",
         }}
       />
       <div className="hairline-gold absolute inset-x-0 top-0 h-px" />
@@ -45,9 +45,9 @@ export function Hero() {
           </p>
           <p className="max-w-xl text-sm leading-relaxed text-ivory/70 sm:text-base">
             Fifteen years of teaching, five years of legacy, five years of
-            motherhood — and forty years of grace. Tonight the hall glows ruby
-            for Adaeze, as fifty hearts gather to honour a teacher, a founder,
-            a mother, and a friend.
+            motherhood — and forty years of grace. Tonight the hall glows
+            burgundy for Mena, as fifty hearts gather to honour a teacher, a
+            founder, a mother, and a friend.
           </p>
 
           <div className="flex flex-wrap items-center gap-3">
@@ -89,11 +89,12 @@ export function Hero() {
               />
             </div>
             <div className="absolute -left-6 bottom-8 rounded-full border border-gold/50 bg-velvet/90 px-4 py-2 text-xs uppercase tracking-[0.2em] text-gold backdrop-blur">
-              Est. 2021 · Gracefield
+              Est. 2021 · Smity Hills School
             </div>
           </div>
         </motion.div>
       </div>
+      <div className="hairline-purple h-px w-full" />
     </section>
   );
 }

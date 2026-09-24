@@ -10,7 +10,7 @@ export function Footer() {
           “To whom much grace is given, much gratitude is owed.”
         </p>
         <p className="max-w-md text-sm leading-relaxed text-ivory/60">
-          With grateful hearts we honour Adaeze — teacher, founder, mother,
+          With grateful hearts we honour Mena — teacher, founder, mother,
           friend — on her Ruby Jubilee. Your tributes become a keepsake she
           will treasure for decades.
         </p>
@@ -30,7 +30,7 @@ export function Footer() {
         </div>
         <p className="flex items-center gap-1.5 text-xs text-ivory/40">
           Made with <Heart className="size-3.5 fill-ruby text-ruby" /> for the
-          Ruby Jubilee · 40 &amp; Flourishing · 2026
+          Ruby Jubilee · 40 &amp; Flourishing · 2027
         </p>
       </div>
     </footer>

@@ -5,6 +5,7 @@ import { TributeWall } from "@/components/tribute-wall";
 import { MusicPlayer } from "@/components/music-player";
 import { Itinerary } from "@/components/itinerary";
 import { CtaBand } from "@/components/cta-band";
+import { ClosingBlessing } from "@/components/closing-blessing";
 import { Footer } from "@/components/footer";
 import { prisma } from "@/lib/db";
 
@@ -25,6 +26,7 @@ export default async function HomePage() {
         <MusicPlayer />
         <Itinerary program={program} />
         <CtaBand />
+        <ClosingBlessing />
       </main>
       <Footer />
     </>
